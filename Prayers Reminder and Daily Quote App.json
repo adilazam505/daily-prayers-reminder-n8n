@@ -1,0 +1,326 @@
+{
+  "name": "My workflow 3",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 5
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -656,
+        -240
+      ],
+      "id": "d1c253a7-4127-4c99-aa91-ee9bdb95c877",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "c9496c1b-3d0b-4720-ba9c-9cd4b270c750",
+              "name": "reminder",
+              "value": "Time for Fajr prayer 🌅",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -512,
+        -240
+      ],
+      "id": "3feaa857-f9c3-4a9e-acaf-213f7cf2badd",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 14
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -656,
+        -64
+      ],
+      "id": "fae695bc-2f04-443d-8c08-eac3bb26d3af",
+      "name": "Schedule Trigger1"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a58af1a8-d0f1-4029-8cec-5e9c2b2fa5eb",
+              "name": "reminder",
+              "value": "Time for Zuhr prayer ☀️",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -512,
+        -64
+      ],
+      "id": "24ff0b89-3a7e-437a-907f-19c3084a6412",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 16
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -656,
+        96
+      ],
+      "id": "7772f0aa-ade3-4bef-987c-16f01c1ee648",
+      "name": "Schedule Trigger2"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "fd53bcbd-c31c-4c5b-bce0-53fa07e32e04",
+              "name": "reminder",
+              "value": "Time for Asr prayer 🌤️",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -512,
+        96
+      ],
+      "id": "e2a91270-9e52-4734-89bc-795699fb2646",
+      "name": "Edit Fields2"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 18
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -64,
+        -240
+      ],
+      "id": "1e408ab3-e87b-4ba9-80fb-4a2025156978",
+      "name": "Schedule Trigger3"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "264d7665-28af-4440-b2ed-15b1f5c80292",
+              "name": "reminder",
+              "value": "Time for Maghrib prayer 🌇",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        96,
+        -240
+      ],
+      "id": "273c53ce-c2f7-4201-bb99-7e800e565fdf",
+      "name": "Edit Fields3"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 20
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -64,
+        -48
+      ],
+      "id": "47306c14-517d-4c1f-aa08-68e74f8ef430",
+      "name": "Schedule Trigger4"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "6da98842-e788-44dc-be67-230b45a19764",
+              "name": "reminder",
+              "value": "Time for Isha prayer 🌙",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        96,
+        -48
+      ],
+      "id": "80d41704-22f9-471b-a712-a4829364e14f",
+      "name": "Edit Fields4"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 9
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -64,
+        128
+      ],
+      "id": "552afeb7-5fe7-4957-94ae-b78c9f7decb4",
+      "name": "Schedule Trigger5"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get current day of the week (0=Sunday, 1=Monday, ..., 6=Saturday)\nconst day = new Date().getDay();\n\nconst quotes = [\n  \"Patience is beautiful.\", // Sunday\n  \"Indeed, Allah is with those who fear Him and those who are doers of good.\", // Monday\n  \"The best among you are those who learn the Quran and teach it.\", // Tuesday\n  \"Do not lose hope, nor be sad.\", // Wednesday\n  \"Kindness is a mark of faith, and whoever is not kind has no faith.\", // Thursday\n  \"A smile is charity.\", // Friday\n  \"Whoever guides someone to goodness will have a reward like one who did it.\" // Saturday\n];\n\n// Output the quote for today\nreturn [{ json: { quote: quotes[day] } }];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        112,
+        128
+      ],
+      "id": "eda23c2c-5d35-4255-b58b-a36f1cdf87ca",
+      "name": "Code in JavaScript"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger1": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger2": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger3": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger4": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger5": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "b2969eb4-e309-4049-bc7d-40dc834545d7",
+  "meta": {
+    "instanceId": "9a904f7cd7ff7f132543d120825951dd56ef50f1cebdc043977ef8dc6e495bdd"
+  },
+  "id": "bf7pXThA3BgPERVc",
+  "tags": []
+}
