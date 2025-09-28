@@ -1,6 +1,6 @@
-# Daily Prayers & Islamic Quote Reminder Workflow (n8n)
+# Daily Prayers Reminder Workflow (n8n)
 
-This project is an **n8n workflow** that sends **5 daily prayer reminders** and a **daily Islamic quote**.  
+This project is an **n8n workflow** that sends **daily prayers reminders** and a **daily quote**.  
 It’s designed to be portfolio-ready and can be imported directly into n8n.
 
 ## Features
@@ -31,5 +31,6 @@ It’s designed to be portfolio-ready and can be imported directly into n8n.
 ## Tech Stack
 
 - [n8n](https://n8n.io/) – Workflow automation platform
+
 
 
